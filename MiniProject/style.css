@@ -1,0 +1,25 @@
+.login-container {
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   height: 100vh;
+}
+
+.login-elements {
+    justify-content: center;
+    min-width: 50%;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+#success {
+    color: green;
+}
+
+#error {
+    background-color: red;
+    color: red;
+}

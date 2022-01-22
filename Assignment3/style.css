@@ -1,0 +1,157 @@
+@import url(//db.onlinewebfonts.com/c/1e44faec07b8b81f60a3215d76bd0086?family=Irvin);
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+body {
+  margin: 20px;
+}
+
+header h1 {
+  font-family: Irvin, serif;
+  font-size: 3em;
+}
+
+header h2 {
+  font-family: Irvin, serif;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+h2 a {
+  color: black;
+}
+
+h2 a:hover {
+  color: darkgray;
+}
+
+main {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.7em;
+  line-height: 1.2;
+}
+
+figcaption a {
+  color: black;
+  text-decoration: none;
+}
+
+figcaption a:hover {
+  color: darkgrey;
+}
+
+main h2 {
+  font-family: Irvin, serif;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+
+#intro {
+  justify-content: flex-start;
+}
+
+#intro p {
+  flex: 2.6;
+}
+
+#intro iframe {
+  flex: 1;
+}
+
+nav h2,
+#exterior-figures,
+#intro,
+#interior-figures,
+#performance-elements {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+nav h2 a {
+  text-align: center;
+  flex: 1;
+}
+
+#exterior-figures,
+#interior-figures {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#exterior-figures figure,
+#interior-figures figure {
+  flex: 1;
+}
+
+figure {
+  margin: 5px;
+}
+
+figcaption {
+  margin: 5px, 0;
+}
+
+figure img {
+  aspect-ratio: 3/2;
+}
+
+#performance-elements {
+  justify-content: flex-start;
+}
+
+#performance-elements p {
+  flex: 2.6;
+}
+
+#performance-elements figure {
+  flex: 1;
+}
+
+#reviews {
+  display: flex;
+}
+
+#reviews iframe {
+  flex: 1;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+#social {
+  display: block;
+}
+
+#social i {
+  margin: 0px 20px 0px 0px;
+  padding: 0px;
+}
+
+#social a {
+  color: black;
+}
+
+#social a:hover {
+  color: darkgray;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: darkgray;
+}
+
+#authorname {
+  font-weight: bolder;
+}
+
+#specs strong {
+  font-family: Irvin, serif;
+  font-weight: normal;
+  font-size: 1.2em;
+}

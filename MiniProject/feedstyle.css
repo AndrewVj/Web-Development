@@ -1,0 +1,41 @@
+/* .profile-picture {
+    border-radius: 50%;
+} */
+
+.profile-info {
+    display: flex;
+    align-content: flex-end;
+}
+
+.profile-info img, p {
+    margin:5px
+}
+
+.profile-info-img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.feed-item {
+    max-width: 500px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.main-image{
+    width: 600px;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: grey;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+}
